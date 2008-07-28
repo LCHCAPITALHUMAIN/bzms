@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+<title>[page_title]</title>
+</head>
+
+<body>
+<FORM METHOD=post ACTION=[form_action] id="Form1" dir="[lang_dir]">
+  <FIELDSET>
+    <LEGEND ACCESSKEY=I>[lang_add_cus_cinfo]</LEGEND>
+    <TABLE>
+      <tr>
+        <td height="24"><label for="name" accesskey="N">[lang_cp_cus_title]:</label>        </td>
+        <td><label>
+          <input name="title" type="text" id="title" value="[temp_cus_title_value]" />
+        </label></td>
+      </tr>
+      <tr>
+        <td height="24"><label for="name" accesskey="N">[lang_cp_cus_img]:</label>
+        </td>
+        <td><label>
+          <input name="img" type="text" id="img" value="[temp_cus_img_value]" />
+        </label></td>
+      </tr>
+      <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_cp_cus_url]:</LABEL>        </TD>
+        <TD><label>
+        <input name=url type=text id="url" value="[temp_cus_url_value]">
+        </label></TD>
+      </TR>
+	      </TABLE>
+	
+  </FIELDSET>
+
+  <P>
+    <INPUT TYPE=submit onclick="submitForm()" VALUE="[send]">
+    <INPUT TYPE=reset VALUE="[clear]">
+  </P>
+
+</FORM>
+
+</body>
+</html>

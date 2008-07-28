@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+<title>[page_title]</title>
+</head>
+<body>
+<FORM METHOD=post ACTION=[form_action] dir="[lang_dir]">
+  <FIELDSET>
+    <LEGEND ACCESSKEY=I>[lang_admin_addservice_cinfo]</LEGEND>
+    <TABLE>
+      <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_cp_cat_title]:</LABEL>        </TD>
+        <TD><label>
+        <input type=text name=title value="[temp_cat_title_value]">
+        </label></TD>
+      </TR>
+      <TR>
+        <TD>
+          <LABEL FOR=name ACCESSKEY=N>[lang_cp_cat_subcat]:</LABEL>        </TD>
+        <TD><label>
+          <select name="sid">
+          <option value=0>[lang_cp_maincat_value]</option>
+[subcat_subcat]
+                                                            </select>
+        </label></TD>
+      </TR>
+  </TABLE>
+	
+  </FIELDSET>
+
+  <P>
+    <INPUT TYPE=submit VALUE="Submit order">
+    <INPUT TYPE=reset VALUE="Clear order form">
+  </P>
+
+</FORM>

@@ -1,0 +1,76 @@
+body{
+padding:0px;
+margin:0px;
+}
+
+a:hover{text-decoration:none;}
+a	{
+		font-family:Arial;
+		font-size:11px;
+		line-height:14px;
+		color:#454545;
+	}
+.main_text
+	{
+		font-family:Arial;
+		font-size:11px;
+		line-height:14px;
+		color:#373737;
+	}
+.header_text
+	{
+		font-family:Arial;
+		font-size:11px;
+		line-height:14px;
+		color:#346198;
+	}
+	
+.link_text
+	{
+		font-family:Arial;
+		font-size:11px;
+		line-height:14px;
+		color:#3AAEEC;
+	}	
+	
+.links_text
+	{
+		font-family:Tahoma;
+		font-size:11px;
+		line-height:11px;
+		color:#FFFFFF;
+	}	
+
+.form_text
+	{
+		font-family:Tahoma;
+		font-size:11px;
+		line-height:13px;
+		color:#454545;
+	}	
+	
+.copyright_text
+	{
+		font-family:Arial;
+		font-size:11px;
+		line-height:13px;
+		color:#FFFFFF;
+	}
+
+.form
+	{
+		width:165px; height:19px; border-color:#CDCDCD; border-bottom-width:1px;border-right-width:1px; background-color:#ffffff; font-size:11px;
+	}
+.form_div
+	{
+		height:22px; margin-top:2px; margin-left:11px		
+	}
+		
+	a.header_text{text-decoration:none;}	
+	a.header_text:hover {text-decoration:underline;}	
+			
+	a.links_text{text-decoration:none;}	
+	a.links_text:hover {text-decoration:underline;}	
+	
+	a.copyright_text{text-decoration:none;}	
+	a.copyright_text:hover {text-decoration:underline;}	

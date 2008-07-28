@@ -1,0 +1,78 @@
+<FORM METHOD=post ACTION=[temp_form_action]>
+  <FIELDSET dir="[lang_dir]">
+    <LEGEND ACCESSKEY=I>[lang_form_register_cinfo]</LEGEND>
+    <TABLE>
+      <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_form_register_uname]:</LABEL>        </TD>
+        <TD><label>
+        <input type=text name=m_uname value=[temp_m_uname_value]>
+        </label></TD>
+      </TR>
+
+	  <TR>
+        <TD>
+          <LABEL FOR=name ACCESSKEY=N>[lang_form_register_password]:</LABEL>        </TD>
+        <TD><input type=password name=m_pass></TD>
+      </TR>
+      <TR>
+        <TD>
+          <LABEL FOR=email ACCESSKEY=E>[lang_form_register_mail]:</LABEL>        </TD>
+        <TD>
+          <INPUT TYPE=text NAME=m_mail value=[temp_m_mail_value]>        </TD>
+      </TR>
+	  <TR>
+        <TD>
+          <LABEL FOR=email ACCESSKEY=E>[lang_form_member_permission]:</LABEL>        </TD>
+        <TD>
+		<select name="permisssion">
+		<option>[lang_form_member_permission_main_value]</option>
+          [temp_member_permissions]      
+		</select>		  </TD>
+      </TR>
+      <TR>
+        <TD>
+          <LABEL FOR=addr ACCESSKEY=A>[lang_form_register_site]:</LABEL>        </TD>
+        <TD><input type=text name=m_site value=[temp_m_site_value]></TD>
+      </TR>
+	  <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_form_register_country]:</LABEL>        </TD>
+        <TD><label>
+        <input type=text name=m_country value=[temp_m_country_value]>
+        </label></TD>
+      </TR>
+	  <tr>
+        <td height="24"><label for="name" accesskey="N">[lang_form_register_phone]:</label>
+        </td>
+	    <td><label>
+          <input type="text" name="m_phone" value="[temp_m_phone_value]" />
+        </label></td>
+      </tr>
+	  <tr>
+        <td height="24"><label for="name" accesskey="N">[lang_form_register_address]:</label>
+        </td>
+	    <td><label>
+          <input type="text" name="m_address" value="[temp_m_address_value]" />
+        </label></td>
+      </tr>
+	  <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_form_total_orders]:</LABEL></TD>
+        <TD><label>[temp_total_orders]</label></TD>
+      </TR>
+	  <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_form_total_payment]:</LABEL>        </TD>
+        <TD><label>[temp_total_payment]</label></TD>
+      </TR>
+	      </TABLE>
+
+  </FIELDSET>
+
+  <P>
+    <INPUT TYPE=submit VALUE=[lang_register_submit]>
+    <INPUT TYPE=reset VALUE=[lang_register_reset]>
+  </P>
+
+</FORM>
