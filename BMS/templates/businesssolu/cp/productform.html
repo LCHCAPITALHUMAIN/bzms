@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+<title>[page_title]</title>
+</head>
+
+<body>
+<FORM METHOD=post ACTION=[form_action] id="Form1">
+  <FIELDSET dir="[lang_dir]">
+    <LEGEND ACCESSKEY=I>Add New Product</LEGEND>
+    <TABLE>
+      <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_cp_pro_title]:</LABEL>        </TD>
+        <TD><label>
+        <input type=text name=title value="[temp_pro_title_value]">
+        </label></TD>
+      </TR>
+      <TR>
+        <TD>
+          <LABEL FOR=name ACCESSKEY=N>[lang_cp_pro_subcat]:</LABEL>        </TD>
+        <TD><label>
+          <select name="sid">
+          <option value=0 selected="selected">[lang_cp_maincat_value]</option>
+[subcat_subcat]
+                                                            
+          </select>
+        </label></TD>
+      </TR>
+	<TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_cp_pro_text]:</LABEL>        </TD>
+        <TD><label>
+        [temp_pro_text]
+        </label></TD>
+      </TR>
+	  <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_cp_pro_img]:</LABEL>        </TD>
+        <TD><label>
+        <input type=text name=img value="[temp_pro_img_value]">
+        </label></TD>
+      </TR>
+	  
+	 <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_cp_pro_price]:</LABEL>        </TD>
+        <TD><label>
+        <input name=price type=text id="price" value="[temp_pro_price_value]">
+        </label></TD>
+      </TR>
+	  
+	  <TR>
+        <TD height="24">
+        <LABEL FOR=name ACCESSKEY=N>[lang_cp_pro_permission]:</LABEL>        </TD>
+        <TD><label>
+        <select name="permission">
+		<option>[lang_cp_select_permission]</option>
+		[temp_pro_permission_value]
+		</select>
+        </label></TD>
+      </TR>
+	      </TABLE>
+	
+  </FIELDSET>
+
+  <P>
+    <INPUT TYPE=submit VALUE="Submit order" onclick="submitForm()">
+    <INPUT TYPE=reset VALUE="Clear order form">
+  </P>
+
+</FORM>
+
+</body>
+</html>

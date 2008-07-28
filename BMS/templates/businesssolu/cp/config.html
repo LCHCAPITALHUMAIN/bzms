@@ -1,0 +1,38 @@
+<FORM METHOD=post ACTION=[temp_form_action] dir="[lang_dir]" id="Form1">
+  <FIELDSET>
+    <LEGEND ACCESSKEY=I>[lang_form_config_cinfo]</LEGEND>
+    <TABLE>
+	  <tr>
+        <td><label for="name" accesskey="N">[lang_form_site_title]:</label>        </td>
+	    <td><input name="site_title" type="text" id="site_title" value="[temp_site_title]" size="50"></td>
+    </tr>
+	<tr>
+        <td><label for="name" accesskey="N">[lang_form_site_footer]:</label>        </td>
+      <td width="350"><textarea name="site_footer" cols="30" rows="10" id="site_footer">[temp_site_footer]</textarea></td>
+    </tr>
+	<tr>
+        <td><label for="name" accesskey="N">[lang_form_site_lang]:</label>        </td>
+	    <td><label>
+	      <select name="site_lang" id="site_lang">
+		  [list_of_langs]
+        
+          </select>
+	    </label></td>
+	</tr>
+    <tr>
+        <td><label for="name" accesskey="N">[lang_form_site_style]:</label>        </td>
+	    <td><select name="site_style" id="site_style">
+		[list_of_styles]
+        
+	    </select></td>
+    </tr>
+  </TABLE>
+
+  </FIELDSET>
+
+  <P>
+    <INPUT TYPE=submit VALUE="[lang_save_submit]">
+    <INPUT TYPE=reset VALUE="[lang_save_reset]">
+  </P>
+
+</FORM>
